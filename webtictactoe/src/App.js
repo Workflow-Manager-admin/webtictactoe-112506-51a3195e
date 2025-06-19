@@ -12,11 +12,10 @@ function App() {
             <div className="logo">
               <span className="logo-symbol">*</span> KAVIA AI
             </div>
-            <button className="btn" style={{ background: "#4CAF50" }}>WebTicTacToe</button>
+            <button className="btn" tabIndex={-1} style={{ pointerEvents: "none" }}>WebTicTacToe</button>
           </div>
         </div>
       </nav>
-      {/* Replace template main area with the game container */}
       <main>
         <TicTacToe />
       </main>
